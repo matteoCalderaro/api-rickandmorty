@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import './body';
+
+
+.card {
+    @apply lg:flex  mt-6 mx-3 lg:h-55 rounded-xl bg-card;
+}
+
+.iconGreen {
+    @apply w-3 fill-green-600
+}
+
+.iconRed {
+    @apply w-3 fill-red-600
+}
