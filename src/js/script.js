@@ -32,7 +32,7 @@ axios.get("https://rickandmortyapi.com/api/character/1,2,3,11,12,14")
                             <p class="text-gray-400">Last known location:</p>
                             <p class="text-l font-thin text-white hover:text-hover">${character.location.name}</p>
                         </div>
-                        <div class="ml-3 my-7 lg:my-0">
+                        <div class="ml-3 mb-7 lg:my-0">
                             <p class="text-gray-400">First seen in:</p>
                             <p class="text-l font-thin text-white hover:text-hover">${response.data.name}</p>
                         </div>
