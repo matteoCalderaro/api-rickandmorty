@@ -485,6 +485,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .ml-3 {
   margin-left: 0.75rem;
 }
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
